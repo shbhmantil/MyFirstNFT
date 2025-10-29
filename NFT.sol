@@ -46,7 +46,7 @@ contract MyFirstNFT is ERC721, ERC721URIStorage, AccessControl {
     }
 
     /**
-     * @dev Mints a new agent NFT
+     * @dev Mints a new NFT
      * @param to Address to mint the NFT to
      * @return tokenId The ID of the newly minted token
      */
@@ -65,7 +65,7 @@ contract MyFirstNFT is ERC721, ERC721URIStorage, AccessControl {
     }
 
     /**
-     * @dev Batch mints multiple agent NFTs
+     * @dev Batch mints multiple NFTs
      * @param recipients Array of recipient addresses
      * @return tokenIds Array of minted token IDs
      */
